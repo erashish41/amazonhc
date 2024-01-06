@@ -92,11 +92,18 @@ span{
 .panel{
     height: 40px;
     background-color: #222f3d;
-   
+    display: flex;
     color: white;
     align-items: center;
     justify-content: space-evenly;
 }
 .panel-ops p {
     display: inline;
+}
+.panel-ops{
+    width: 95%;
+    font-size: 0.85rem;
+}
+.border{
+    border: 2px solid transparent;
 }
