@@ -1,18 +1,26 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial;
 }
 .navbar{
     height: 60px;
-    background-color: #0F1111;
+    background-color: #0f1111;
     color: white;
+    display: flex;
 }
 .nav-logo{
     height: 50px;
-    width: 100px;
+    width: 120px;
 }
-.logo img{
-   max-width: 100%;
-   height: auto;
+.logo{
+    background-image: url("assets/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
 }
