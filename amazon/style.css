@@ -107,3 +107,27 @@ span{
 .border{
     border: 2px solid transparent;
 }
+
+/** hero-section**/
+.hero-section{
+    background-image: url(assets/pic_one.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.hero-msg a {
+    color: #007185;
+}
